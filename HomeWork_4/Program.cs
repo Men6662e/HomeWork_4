@@ -1,4 +1,4 @@
-﻿string answer = "";
+string answer = "";
 
 do
 {
@@ -38,7 +38,7 @@ do
             continue;
         }
 
-        userGuess = Convert.ToInt32(Console.ReadLine());
+        userGuess = Convert.ToInt32(input);
         attempts++;
 
         if (userGuess < secretNumber)
